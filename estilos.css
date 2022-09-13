@@ -1,0 +1,79 @@
+body {
+margin: 2%;
+padding: 0;
+display: flex;
+background-color: rgb(57, 73, 75);
+}
+
+.father_container {
+display: flex;
+border-radius: 46px;
+height:920px;
+width:100%;
+background-image: url(/forest.jpg);
+background-size: cover;
+}
+
+.title_discover{
+position: relative;
+left: -165px;
+top:210px;
+align-items: center;
+font-size: 65px;
+color: rgb(219, 219, 219);
+letter-spacing: 8px;
+font-family: 'Bebas Neue', cursive;
+opacity: 60%;
+}
+
+.title_country{
+position: relative;
+left:-200px;
+top:200px;
+align-items: center;
+font-size: 210px;
+color: rgb(219, 219, 219);
+letter-spacing: 16px;
+font-family: 'Bebas Neue', cursive;
+opacity: 60%;
+}
+
+li {
+position: relative;
+right: -550px;
+ display: inline;
+ float: left;
+padding: 50px;
+cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+
+ul {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 28px;
+  letter-spacing: 2px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+ font-family: 'Bebas Neue', cursive;
+ font-size: 18px;
+ letter-spacing: 2px;
+border-radius: 66px;
+border: none;
+position: absolute;
+bottom: 100px;
+right: 80px;
+cursor: pointer;
+}
+
+button:hover{
+background-color: rgb(128, 128, 128);
+opacity: 100%;
+}
