@@ -10,7 +10,7 @@ display: flex;
 border-radius: 46px;
 height:920px;
 width:100%;
-background-image: url(/forest.jpg);
+background-image: url(forest.jpg);
 background-size: cover;
 }
 
